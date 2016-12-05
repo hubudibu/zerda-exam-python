@@ -26,9 +26,18 @@ The application is accepted if:
 
 ### Explain the algorithm seen in `third.py`. Use a flowchart, structogram or pseudo code. [2p]
 #### Your answer:
+    	You can see in the flowchart.jpg.
 
 ### How can you create a graphical user interface and draw a rectangle on it in python? What are the tools needed for it? [2p]
 #### Your answer:
+    We can use to draw something the Tkinter module.
+    First step to import all from the Tkinter module, than "root = Tk()"
+    Then we have to draw a canvas, with a width and height.
+    We have to create line with multiple points, and built a triangle.
+    And, at the and "root.mainloop()" to see permanent out canvas.
+
 
 ### What does V stand for in MVC? [2p]
 #### Your answer:
+    In the model-view-controller the v is the view.
+    The view manages the display of information. The view can handle the informations, that we would like to show for the user. The view is in direct relation with the controller, so the controller gives infos for the view. The view and the model does not known for each other.
