@@ -1,4 +1,4 @@
-# EXAM: Python Basics
+# EXAM: Python Basics - Pracser Tamas
 
 ### Getting Started
  - Fork this repository under your own account
