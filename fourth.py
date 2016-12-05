@@ -16,9 +16,7 @@ class Rocket():
             self.number_of_launches = 0
         else:
             self.number_of_launches = number_of_launches
-        self.number_of_launches = 0
         self.used_fuel = 0
-
 
 # It should have 3 methods:
 #
@@ -29,9 +27,12 @@ class Rocket():
     def launch(self):
         if self.type_of_rocket == "falcon1":
             self.start_fuel_level -= 1
+            if self.start_fuel_level >= 1:
+                self.number_of_launches += 1
         elif self.type_of_rocket == "falcon9":
             self.start_fuel_level -= 9
-        self.number_of_launches += 1
+            if self.start_fuel_level >= 9:
+                self.number_of_launches += 1
 
 
 # refill()
